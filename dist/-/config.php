@@ -5,12 +5,12 @@ define('USERNAME',	'admin');
 define('PASSWORD',	'shortItNow');
 
 // DATABASE
-define('DB_NAME', 		'lessn');
-define('DB_USERNAME', 	'lessn');
-define('DB_PASSWORD', 	'pass');
+define('DB_NAME', 		'short-link');
+define('DB_USERNAME', 	'gywswkjd8mdpakitcru6');
+define('DB_PASSWORD', 	'pscale_pw_IeASFGOxHtUuIR5iuBGmb908v25FPRI3S5YgD3xQ61y');
 define('DB_PREFIX', 	'lessn_'); // Lessn More can share a database by prefixing table names
 define('DB_DRIVER',		'mysql'); // mysql, pgsql, sqlite (sqlite not fully tested)
-define('DB_SERVER', 	'localhost'); // You may able to leave as-is
+define('DB_SERVER', 	'aws.connect.psdb.cloud'); // You may able to leave as-is
 
 // Enable statistics?
 define('RECORD_URL_STATS', true);
@@ -61,7 +61,7 @@ define('ERROR_404_URL', NULL); //e.g. 'http://example.com/404'
 // If an slug was deleted (marked 'gone')
 define('GONE_410_URL', NULL); //e.g. 'http://example.com/gone'
 
-define('APP_NAME', 'Lessn More');
+define('APP_NAME', 'Lets Short It');
 
 // For debuggers, developers, and the curious
 define('LOG_MODE', false); // Not recommended, a bit slower.
